@@ -15,6 +15,7 @@ from tkinter import filedialog
 import os
 from datetime import datetime
 
+
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 LEFT_PANNEL_BACKGROUND_COLOR = (15,10,20)
@@ -71,6 +72,8 @@ def resizeGrid(grid, cols, rows):
             newGrid[i][j] = grid[i][j]
     grid = copy.deepcopy(newGrid)
     return grid
+
+
 def draw_grid(surface, grid, rows, cols, gridSize, widthOffset):
     cells = {}
     rowOffset = 0
@@ -349,6 +352,7 @@ def drawLeftPannel(surface, screenHeight, width, height, grid, editing, screenHe
     surface.blit(generationsInputText, (generationsInputX + (generationsInputWidth - generationsInputText.get_width()) // 2, generationsInputY + (generationsInputHeight - generationsInputText.get_height()) // 2))
     
     return elements
+
 def drawRightPannel(surface, x, y, width, height, entities):
     pygame.draw.rect(surface, RIGHT_PANNEL_BACKGROUND_COLOR, (x, y, width, height))
     # Labels
@@ -446,7 +450,7 @@ def main(screenHeight, grid, rows, cols, generations, currentGeneration, entitie
     outputFileName = ""
     
     loadError = False
-
+    
     pygame.init()
     icon_image = pygame.image.load("conway.jpg")
     pygame.display.set_icon(icon_image)
@@ -773,7 +777,6 @@ def loadConfiguration():
                     else:
                         if len(line) >= 2 and line[0].isdigit() and line[1].isdigit():
                             if int(line[0]) >= int(configuration["height"]) or int(line[1]) >= int(configuration["width"]):
-                                print(1)
                                 return None
                             configuration["activeCells"].add((line[0],line[1]))
                         else:
@@ -803,3 +806,4 @@ entitiesCount = {"block": 0,
 
 if __name__ == "__main__":
     run(500, 10, 10, 200, entitiesCount)
+
