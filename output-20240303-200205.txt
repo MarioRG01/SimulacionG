@@ -1,0 +1,2102 @@
+Simulation at 2024-03-03
+Universe size 10 x 10
+
+Generation: 1
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 2
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 3
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 4
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 5
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 6
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 7
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 8
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 9
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	2	100.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	2	100%
+
+Generation: 10
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 11
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 12
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	2	100.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	2	100%
+
+Generation: 13
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 14
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 15
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 16
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 17
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 18
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 19
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 20
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 21
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 22
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 23
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 24
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 25
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 26
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 27
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 28
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 29
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 30
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 31
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 32
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 33
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 34
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 35
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 36
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 37
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 38
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 39
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 40
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 41
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 42
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 43
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 44
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 45
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 46
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 47
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 48
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 49
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 50
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 51
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 52
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 53
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 54
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 55
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 56
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 57
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 58
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 59
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 60
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 61
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 62
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 63
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 64
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 65
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 66
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 67
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 68
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 69
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 70
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 71
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 72
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 73
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 74
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 75
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 76
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 77
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 78
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 79
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 80
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 81
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 82
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 83
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 84
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 85
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 86
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 87
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 88
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 89
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 90
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 91
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 92
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 93
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 94
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 95
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 96
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 97
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 98
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 99
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 100
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 101
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 102
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 103
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 104
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 105
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 106
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 107
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 108
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 109
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 110
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 111
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 112
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 113
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 114
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 115
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 116
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 117
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 118
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 119
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 120
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 121
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 122
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 123
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 124
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 125
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 126
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 127
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 128
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 129
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 130
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 131
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 132
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 133
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 134
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 135
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 136
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 137
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 138
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 139
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 140
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 141
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 142
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 143
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 144
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 145
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 146
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 147
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 148
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 149
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
+
+Generation: 150
+Entity	Count	Percent
+block	0	0.00%
+beehive	0	0.00%
+loaf	0	0.00%
+boat	0	0.00%
+tub	0	0.00%
+blinker	0	0.00%
+toad	0	0.00%
+beacon	0	0.00%
+glider	0	0.00%
+LWSS	0	0.00%
+Total:	0	0%
