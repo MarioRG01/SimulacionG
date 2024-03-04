@@ -1,6 +1,6 @@
 """
 conway.py 
-A simple Python/matplotlib implementation of Conway's Game of Life.
+A simple Python/pygame implementation of Conway's Game of Life.
 Alberto Morales Vizcarra
 Mario Rodriguez Gonzalez
 Raquel Ochoa Martinez
