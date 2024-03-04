@@ -1,0 +1,6 @@
+50 60 	#Width Height
+200 	#Generations
+20 3	#Cell (row, col) is alive
+20 4	#Cell (row, col) is alive
+20 5	#Cell (row, col) is alive
+...
