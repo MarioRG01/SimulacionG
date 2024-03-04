@@ -446,3 +446,360 @@ def main(screenHeight, grid, rows, cols, generations, currentGeneration, entitie
     outputFileName = ""
     
     loadError = False
+
+    pygame.init()
+    icon_image = pygame.image.load("conway.jpg")
+    pygame.display.set_icon(icon_image)
+    screenWidth = leftPannelWidth + gridWidth + rightPannelWidth
+    screen = pygame.display.set_mode((screenWidth, screenHeight))
+    pygame.display.set_caption("Game Of Life")
+
+    clock = pygame.time.Clock()
+
+    pygame.draw.rect(screen, LEFT_PANNEL_BACKGROUND_COLOR, (0, 0, leftPannelWidth, leftPannelHeight))
+    pygame.draw.rect(screen, GRID_PANNEL_BACKGROUND_COLOR, (leftPannelWidth, 0, gridWidth, gridHeight))
+    pygame.draw.rect(screen, RIGHT_PANNEL_BACKGROUND_COLOR, (leftPannelWidth+gridWidth, 0, rightPannelWidth, rightPannelHeight))
+
+    leftPannelElements = drawLeftPannel(screen, screenHeight, leftPannelWidth, leftPannelHeight, grid, clickAction, screenHeight, universeWidthValue, universeHeightValue, simRunning, currentGeneration, generationsValue, loadError)
+    
+    drawRightPannel(screen, leftPannelWidth+gridWidth, 0, rightPannelWidth, rightPannelHeight, entities)
+
+    screenHeightInput = leftPannelElements["screenHeightInput"]
+    universeWidthInput = leftPannelElements["universeWidthInput"]
+    universeHeightInput = leftPannelElements["universeHeightInput"]
+    generationsInput = leftPannelElements["generationsInput"]
+    
+    startSimulationButton = leftPannelElements["startButton"]
+    loadConfButton = leftPannelElements["loadConfButton"]
+    clearButton = leftPannelElements["clearButton"]
+    screenHeightResizeButton = leftPannelElements["screenHeightResizeButton"]
+    resizeUniverseButton = leftPannelElements["resizeUniverseButton"]
+
+    cellsGrid = draw_grid(screen, grid, universeHeightValue, universeWidthValue, gridSize, leftPannelWidth)
+    
+    while True:
+        if clickAction not in ["screenHeightInput", "universeWidthInput", "universeHeightInput", "generationsInput"]:
+            clickAction = ""
+            leftPannelElements = drawLeftPannel(screen, screenHeight, leftPannelWidth, leftPannelHeight, grid, clickAction, tempScreenHeight, tempUniverseCols, tempUniverseRows, simRunning, currentGeneration, generationsValue, loadError)
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                pygame.quit()
+                sys.exit()
+            if event.type == pygame.MOUSEBUTTONDOWN:
+                if event.button == 1:
+                    if screenHeightInput.collidepoint(event.pos) and not simRunning:
+                        editingScreenHeight = True
+                        editingUniverseWidth = False
+                        editingUniverseHeight = False
+                        editingGenerations = False
+                        loadError = False
+                        clickAction = "screenHeightInput"
+                        leftPannelElements = drawLeftPannel(screen, screenHeight, leftPannelWidth, leftPannelHeight, grid, clickAction, tempScreenHeight, tempUniverseCols, tempUniverseRows, simRunning, currentGeneration, generationsValue, loadError)
+                    elif universeWidthInput.collidepoint(event.pos) and not simRunning:
+                        editingScreenHeight = False
+                        editingUniverseWidth = True
+                        editingUniverseHeight = False
+                        editingGenerations = False
+                        loadError = False
+                        clickAction = "universeWidthInput"
+                        leftPannelElements = drawLeftPannel(screen, screenHeight, leftPannelWidth, leftPannelHeight, grid, clickAction, tempScreenHeight, tempUniverseCols, tempUniverseRows, simRunning, currentGeneration, generationsValue, loadError)
+                    elif universeHeightInput.collidepoint(event.pos) and not simRunning:
+                        editingScreenHeight = False
+                        editingUniverseWidth = False
+                        editingUniverseHeight = True
+                        editingGenerations = False
+                        loadError = False
+                        clickAction = "universeHeightInput"
+                        leftPannelElements = drawLeftPannel(screen, screenHeight, leftPannelWidth, leftPannelHeight, grid, clickAction, tempScreenHeight, tempUniverseCols, tempUniverseRows, simRunning, currentGeneration, generationsValue, loadError)
+                    elif generationsInput.collidepoint(event.pos) and not simRunning:
+                        editingScreenHeight = False
+                        editingUniverseWidth = False
+                        editingUniverseHeight = False
+                        editingGenerations = True
+                        loadError = False
+                        clickAction = "generationsInput"
+                        leftPannelElements = drawLeftPannel(screen, screenHeight, leftPannelWidth, leftPannelHeight, grid, clickAction, tempScreenHeight, tempUniverseCols, tempUniverseRows, simRunning, currentGeneration, generationsValue, loadError)
+                    elif startSimulationButton.collidepoint(event.pos) and currentGeneration < generationsValue:
+                        editingScreenHeight = False
+                        editingUniverseWidth = False
+                        editingUniverseHeight = False
+                        editingGenerations = False
+                        loadError = False
+                        clickAction = "startButton"
+                        simRunning = not simRunning
+                        if simRunning and currentGeneration == 0:
+                            current_datetime = datetime.now()
+                            dateTimeStr = current_datetime.strftime("%Y%m%d-%H%M%S")
+                            outputFileName = "output-" + str(dateTimeStr) + ".txt"
+                        leftPannelElements = drawLeftPannel(screen, screenHeight, leftPannelWidth, leftPannelHeight, grid, clickAction, tempScreenHeight, tempUniverseCols, tempUniverseRows, simRunning, currentGeneration, generationsValue, loadError)
+                    elif loadConfButton.collidepoint(event.pos) and not simRunning:
+                        editingScreenHeight = False
+                        editingUniverseWidth = False
+                        editingUniverseHeight = False
+                        editingGenerations = False
+                        loadError = False
+                        configuration = loadConfiguration()
+                        clickAction = "loadConfButton"
+                        if configuration:
+                            universeHeightValue = int(configuration["height"])
+                            universeWidthValue = int(configuration["width"])
+                            generationsValue = int(configuration["generations"])
+                            tempUniverseCols = universeWidthValue
+                            tempUniverseRows = universeHeightValue
+                            activeCells = configuration["activeCells"]
+                            grid = [[0 for i in range(universeWidthValue)] for j in range(universeHeightValue)]
+                            for cell in activeCells:
+                                grid[int(cell[0])][int(cell[1])] = 1
+                            cellsGrid = draw_grid(screen, grid, universeHeightValue, universeWidthValue, gridSize, leftPannelWidth)
+                            leftPannelElements = drawLeftPannel(screen, screenHeight, leftPannelWidth, leftPannelHeight, grid, clickAction, tempScreenHeight, tempUniverseCols, tempUniverseRows, simRunning, currentGeneration, generationsValue, loadError)
+                            endWindow =True
+                            currentGeneration = 0
+                            entities = {entity: 0 for entity in entitiesCount}
+                            break
+                        else:
+                            loadError = True
+                            leftPannelElements = drawLeftPannel(screen, screenHeight, leftPannelWidth, leftPannelHeight, grid, clickAction, tempScreenHeight, tempUniverseCols, tempUniverseRows, simRunning, currentGeneration, generationsValue, loadError)
+                    elif clearButton.collidepoint(event.pos) and not simRunning:
+                        editingScreenHeight = False
+                        editingUniverseWidth = False
+                        editingUniverseHeight = False
+                        editingGenerations = False
+                        loadError = False
+                        grid = [[0 for i in range(universeWidthValue)] for j in range(universeHeightValue)]
+                        cellsGrid = draw_grid(screen, grid, universeHeightValue, universeWidthValue, gridSize, leftPannelWidth)
+                        leftPannelElements = drawLeftPannel(screen, screenHeight, leftPannelWidth, leftPannelHeight, grid, clickAction, tempScreenHeight, tempUniverseCols, tempUniverseRows, simRunning, currentGeneration, generationsValue, loadError)
+                        endWindow =True    
+                        clickAction = "clearButton"
+                        currentGeneration = 0
+                        entities = {entity: 0 for entity in entitiesCount}
+                        break                                                    
+                    elif screenHeightResizeButton.collidepoint(event.pos) and not simRunning:
+                        editingScreenHeight = False
+                        editingUniverseWidth = False
+                        editingUniverseHeight = False
+                        editingGenerations = False
+                        loadError = False
+                        clickAction = "screenHeightResizeButton"
+                        screenHeight = tempScreenHeight
+                        leftPannelElements = drawLeftPannel(screen, screenHeight, leftPannelWidth, leftPannelHeight, grid, clickAction, screenHeight, tempUniverseCols, tempUniverseRows, simRunning, currentGeneration, generationsValue, loadError)
+                        cellsGrid = draw_grid(screen, grid, universeHeightValue, universeWidthValue, gridSize, leftPannelWidth)
+                        pygame.display.flip()
+                        endWindow = True
+                        break
+                    elif resizeUniverseButton.collidepoint(event.pos) and not simRunning:
+                        editingScreenHeight = False
+                        editingUniverseWidth = False
+                        editingUniverseHeight = False
+                        editingGenerations = False
+                        loadError = False
+                        clickAction = "resizeUniverseButton"
+                        universeWidthValue = tempUniverseCols
+                        universeHeightValue = tempUniverseRows
+                        leftPannelElements = drawLeftPannel(screen, screenHeight, leftPannelWidth, leftPannelHeight, grid, clickAction, tempScreenHeight, universeWidthValue, universeHeightValue, simRunning, currentGeneration, generationsValue, loadError)
+                        pygame.display.flip()
+                        endWindow = True
+                        grid = resizeGrid(grid, universeWidthValue, universeHeightValue)
+                        cellsGrid = draw_grid(screen, grid, universeHeightValue, universeWidthValue, gridSize, leftPannelWidth)
+                        currentGeneration = 0
+                        entities = {entity: 0 for entity in entitiesCount}
+                        break
+                    else:
+                        editingScreenHeight = False
+                        editingUniverseWidth = False
+                        editingUniverseHeight = False
+                        editingGenerations = False
+                        loadError = False
+                        clickAction = ""
+                        leftPannelElements = drawLeftPannel(screen, screenHeight, leftPannelWidth, leftPannelHeight, grid, clickAction, tempScreenHeight, tempUniverseCols, tempUniverseRows, simRunning, currentGeneration, generationsValue, loadError)
+                    if not simRunning:
+                        for cell in cellsGrid:
+                            if cellsGrid[cell].collidepoint(event.pos):
+                                grid[cell[0]][cell[1]] = not grid[cell[0]][cell[1]]
+                                cellsGrid = draw_grid(screen, grid, universeHeightValue, universeWidthValue, gridSize, leftPannelWidth)
+            if event.type == pygame.KEYDOWN and event.key != pygame.K_RETURN:
+                if event.key == pygame.K_BACKSPACE:
+                    if editingScreenHeight:
+                        if len(str(tempScreenHeight)) <= 1:
+                            tempScreenHeight = 0
+                        else:
+                            tempScreenHeight = int(str(tempScreenHeight)[:-1])
+                        leftPannelElements = drawLeftPannel(screen, screenHeight, leftPannelWidth, leftPannelHeight, grid, clickAction, tempScreenHeight, tempUniverseCols, tempUniverseRows, simRunning, currentGeneration, generationsValue, loadError)
+                    elif editingUniverseWidth:
+                        if len(str(tempUniverseCols)) <= 1:
+                            tempUniverseCols = 0
+                        else:
+                            tempUniverseCols = int(str(tempUniverseCols)[:-1])
+                        leftPannelElements = drawLeftPannel(screen, screenHeight, leftPannelWidth, leftPannelHeight, grid, clickAction, tempScreenHeight, tempUniverseCols, tempUniverseRows, simRunning, currentGeneration, generationsValue, loadError)
+                    elif editingUniverseHeight:
+                        if len(str(tempUniverseRows)) <= 1:
+                            tempUniverseRows = 0
+                        else:
+                            tempUniverseRows = int(str(tempUniverseRows)[:-1])
+                        leftPannelElements = drawLeftPannel(screen, screenHeight, leftPannelWidth, leftPannelHeight, grid, clickAction, tempScreenHeight, tempUniverseCols, tempUniverseRows, simRunning, currentGeneration, generationsValue, loadError)
+                    elif editingGenerations:
+                        if len(str(generationsValue)) <= 1:
+                            generationsValue = 0
+                        else:
+                            generationsValue = int(str(generationsValue)[:-1])
+                        leftPannelElements = drawLeftPannel(screen, screenHeight, leftPannelWidth, leftPannelHeight, grid, clickAction, tempScreenHeight, tempUniverseCols, tempUniverseRows, simRunning, currentGeneration, generationsValue, loadError)
+                elif event.unicode.isdigit():
+                    if editingScreenHeight:
+                        if len(str(tempScreenHeight)) < 4:
+                            if tempScreenHeight == 0:
+                                tempScreenHeight = int(event.unicode)
+                            else:
+                                tempScreenHeight = min(int(str(tempScreenHeight) + event.unicode), 1500)
+                            leftPannelElements = drawLeftPannel(screen, screenHeight, leftPannelWidth, leftPannelHeight, grid, clickAction, tempScreenHeight, tempUniverseCols, tempUniverseRows, simRunning, currentGeneration, generationsValue, loadError)
+                    elif editingUniverseWidth:
+                        if tempUniverseCols == 0:
+                            tempUniverseCols = int(event.unicode)
+                        else:
+                            tempUniverseCols = int(str(tempUniverseCols) + event.unicode)
+                        leftPannelElements = drawLeftPannel(screen, screenHeight, leftPannelWidth, leftPannelHeight, grid, clickAction, tempScreenHeight, tempUniverseCols, tempUniverseRows, simRunning, currentGeneration, generationsValue, loadError)
+                    elif editingUniverseHeight:
+                        if tempUniverseRows == 0:
+                            tempUniverseRows = int(event.unicode)
+                        else:
+                            tempUniverseRows = int(str(tempUniverseRows) + event.unicode)
+                        leftPannelElements = drawLeftPannel(screen, screenHeight, leftPannelWidth, leftPannelHeight, grid, clickAction, tempScreenHeight, tempUniverseCols, tempUniverseRows, simRunning, currentGeneration, generationsValue, loadError)
+                    elif editingGenerations:
+                        if generationsValue == 0:
+                            generationsValue = int(event.unicode)
+                        else:
+                            generationsValue = int(str(generationsValue) + event.unicode)
+                        leftPannelElements = drawLeftPannel(screen, screenHeight, leftPannelWidth, leftPannelHeight, grid, clickAction, tempScreenHeight, tempUniverseCols, tempUniverseRows, simRunning, currentGeneration, generationsValue, loadError)
+                    
+        if simRunning:
+            sim = makeSim(grid, universeWidthValue, universeHeightValue)
+            grid = copy.deepcopy(sim["grid"])
+            entities = sim["entities"]
+            drawRightPannel(screen, leftPannelWidth+gridWidth, 0, rightPannelWidth, rightPannelHeight, entities)
+            currentGeneration += 1
+            cellsGrid = draw_grid(screen, grid, universeHeightValue, universeWidthValue, gridSize, leftPannelWidth)
+            if currentGeneration >= generationsValue:
+                simRunning = False
+            saveIteration(outputFileName, currentGeneration, entities, len(grid), len(grid[0]))
+
+        pygame.display.flip()
+        if simRunning:
+            clock.tick(1)
+        else:
+            clock.tick(60)
+        
+        if endWindow:
+            break
+        
+    newParameters = {}
+    newParameters["screenHeight"] = screenHeight
+    newParameters["universeWidth"] = universeWidthValue
+    newParameters["universeHeight"] = universeHeightValue
+    newParameters["grid"] = grid
+    newParameters["generations"] = generationsValue
+    newParameters["currentGeneration"] = currentGeneration
+    newParameters["entities"] = entities
+    
+    return newParameters
+
+def saveIteration(fileName, generation, entities, rows, cols):
+    date = fileName.split("-")[1]
+    if os.path.exists(fileName):
+        with open(fileName, 'a') as file:
+            file.write('\nGeneration: ' + str(generation) + '\n')
+            file.write('Entity\tCount\tPercent\n')
+            totalEntities = sum(entities.values())
+            for entity in entities:
+                name = entity
+                if name == "lightWeightSpaceship":
+                    name = "LWSS"
+                count = entities[entity]
+                if totalEntities != 0:
+                    percent = count / totalEntities
+                else:
+                    percent = 0
+                file.write('{}\t{}\t{:.2%}\n'.format(name, count, percent))
+            if totalEntities == 0:
+                file.write('Total:\t{}\t0%\n'.format(totalEntities))
+            else:
+                file.write('Total:\t{}\t100%\n'.format(totalEntities))
+    else:
+        with open(fileName, 'w') as file:
+            file.write('Simulation at ' + '{}-{}-{}'.format(date[:4], date[4:6], date[6:]) + "\n")
+            file.write('Universe size {} x {}\n'.format(rows, cols))
+            file.write('\nGeneration: {}\n'.format(generation))
+            file.write('Entity\tCount\tPercent\n')
+            totalEntities = sum(entities.values())
+            for entity in entities:
+                name = entity
+                if name == "lightWeightSpaceship":
+                    name = "LWSS"
+                count = entities[entity]
+                if totalEntities != 0:
+                    percent = count / totalEntities
+                else:
+                    percent = 0
+                file.write('{}\t{}\t{:.2%}\n'.format(name, count, percent))
+            if totalEntities == 0:
+                file.write('Total:\t{}\t0%\n'.format(totalEntities))
+            else:
+                file.write('Total:\t{}\t100%\n'.format(totalEntities))
+
+def loadConfiguration():
+    root = tk.Tk()
+    root.withdraw()
+    
+    configuration = {}
+    configuration["activeCells"] = set()
+
+    file_path = filedialog.askopenfilename()
+
+    if file_path:
+        try:
+            with open(file_path, 'r') as file:
+                for line in file:
+                    if line == "\n":
+                        continue
+                    line = line.split()
+                    if "width" not in configuration:
+                        if len(line) >= 2 and line[0].isdigit() and line[1].isdigit():
+                            configuration["width"] = line[0]
+                            configuration["height"] = line[1]
+                        else:
+                            return None
+                    elif "generations" not in configuration:
+                        if len(line) >= 1 and line[0].isdigit():
+                            configuration["generations"] = line[0]
+                        else:
+                            return None
+                    else:
+                        if len(line) >= 2 and line[0].isdigit() and line[1].isdigit():
+                            if int(line[0]) >= int(configuration["height"]) or int(line[1]) >= int(configuration["width"]):
+                                print(1)
+                                return None
+                            configuration["activeCells"].add((line[0],line[1]))
+                        else:
+                            return None
+        except Exception:
+            return None
+    else:
+        return None
+    return configuration
+    
+def run(screenHeight, rows, cols, gens, entitiesCount):
+    grid = [[0 for i in range(cols)] for j in range(rows)]
+    parameters = main(screenHeight, grid, rows, cols, gens, 0, entitiesCount)
+    while True:
+        parameters = main(parameters["screenHeight"], parameters["grid"], parameters["universeHeight"], parameters["universeWidth"], parameters["generations"], parameters["currentGeneration"], parameters["entities"])
+
+entitiesCount = {"block": 0,
+            "beehive": 0,
+            "loaf": 0,
+            "boat": 0,
+            "tub": 0,
+            "blinker": 0,
+            "toad": 0,
+            "beacon": 0,
+            "glider": 0,
+            "lightWeightSpaceship": 0}
+
+if __name__ == "__main__":
+    run(500, 10, 10, 200, entitiesCount)
